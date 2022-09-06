@@ -1,0 +1,62 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  height: 1500px;
+}
+.green{
+  width: 700px;
+  height: 350px;
+  background-color: green;
+  position: relative;
+}
+.red{
+  width: 180px;
+  height: 180px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 22%;
+  left: 35%;
+}
+.fb{
+  width: 200px;
+  position: fixed;
+  top: 40%;
+  right: -140px;
+  transition: 1s;
+}
+.fb:hover{
+  right: -2px;
+}
+.link{
+  width: 150px;
+  position: fixed;
+  top: 15%;
+  right: -90px;
+  transition: 1s;
+}
+.link:hover{
+  right: -1px;
+}
+.yt{
+  width: 200px;
+  position: fixed;
+  bottom: 40%;
+  right: -90px;
+  transition: 1s;
+}
+.yt:hover{
+  right: -2px;
+}
+.tw{
+  width: 200px;
+  position: fixed;
+  bottom: 30%;
+  right: -140px;
+  transition: 1s;
+}
+.tw:hover{
+  right: -2px;
+}
